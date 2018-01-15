@@ -103,7 +103,7 @@ int main(int argc, char *argv[])
             board[i] = emptySpace;
 
         system("clear");
-        cout << "Wyczysc plansze, wcisnij N aby gdy wykonasz swoj ruch." << flush;
+        cout << "Wyczysc plansze, wcisnij N gdy wykonasz swoj ruch." << flush;
         sleep(3);
 
         while(waitKey(20) != 27){
